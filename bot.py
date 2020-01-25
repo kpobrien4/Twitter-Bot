@@ -1,11 +1,12 @@
 import tweepy
-from keys import *
+# from keys import *
 from os import environ
 CONSUMER_KEY = environ['CONSUMER_KEY']
 CONSUMER_SECRET = environ['CONSUMER_SECRET']
 ACCESS_KEY = environ['ACCESS_KEY']
 ACCESS_SECRET = environ['ACCESS_SECRET']
 import time
+import sys
 from random import random
 
 
