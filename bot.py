@@ -1,11 +1,11 @@
 import tweepy
-from keys import *
+# from keys import *
 import sys
 import time
 from random import random
 import os
-
 from os import environ
+
 CONSUMER_KEY = os.environ.get('CONSUMER_KEY')
 CONSUMER_SECRET = os.environ.get('CONSUMER_SECRET')
 ACCESS_KEY = os.environ.get('ACCESS_KEY')
