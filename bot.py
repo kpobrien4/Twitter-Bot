@@ -1,13 +1,14 @@
 import tweepy
-# from keys import *
+from keys import *
+import sys
 from os import environ
+import time
+from random import random
+
 CONSUMER_KEY = environ['CONSUMER_KEY']
 CONSUMER_SECRET = environ['CONSUMER_SECRET']
 ACCESS_KEY = environ['ACCESS_KEY']
 ACCESS_SECRET = environ['ACCESS_SECRET']
-import time
-import sys
-from random import random
 
 
 INTERVAL = 60 * 60 * 6  # tweet every 6 hours
